@@ -10,8 +10,8 @@ export const NavbarData = [
     cName: "nav-text",
   },
   {
-    title: "Reports",
-    path: "/reports",
+    title: "Cards",
+    path: "/cards",
     icons: <IoIcons.IoIosPaper />,
     cName: "nav-text",
   },

@@ -16,7 +16,7 @@ function Navbar() {
         <Link to="#" className="menu-bars">
           <FaIcons.FaBars
             className="navbarOpener"
-            value={{ color: "#03001C" }}
+            style={{ color: "#1874B8" }}
             onClick={showSidebar}
           />
         </Link>
@@ -34,7 +34,7 @@ function Navbar() {
         <ul className="nav-menu-items" onClick={showSidebar}>
           <li className="navbar-toggle">
             <Link to="#" className="menu-bars">
-              <AiIcons.AiOutlineClose />
+              <AiIcons.AiOutlineClose style={{ color: "#fff" }} />
             </Link>
           </li>
           {NavbarData.map((item, index) => {
