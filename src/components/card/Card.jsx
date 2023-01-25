@@ -7,8 +7,9 @@ function Card(props) {
       <img src={props.img} alt="" />
       <div className="container">
         <h2>
-          <b>{props.title}</b>
+          <a href="?">{props.title}</a>
         </h2>
+        <h5>{props.subtitle}</h5>
         <p>{props.content}</p>
       </div>
     </div>

@@ -6,8 +6,8 @@
 }
 
 .card:hover {
-    cursor: pointer;
-    transform: scale(1.1);
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 img {
@@ -15,13 +15,26 @@ img {
   width: 100%;
 }
 
-h2, p {
-    padding: 10px;
+h2,
+h5 {
+  padding: 5px 10px 5px 10px;
+}
+
+p {
+  padding: 5px 10px 15px 10px;
+  columns: #7f7f7f7f;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
 }
 
 .card-area {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
 }
