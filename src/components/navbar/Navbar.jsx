@@ -16,7 +16,7 @@ function Navbar() {
         <Link to="#" className="menu-bars">
           <FaIcons.FaBars
             className="navbarOpener"
-            style={{ color: "#1874B8" }}
+            style={{ color: "#fb8500" }}
             onClick={showSidebar}
           />
         </Link>
