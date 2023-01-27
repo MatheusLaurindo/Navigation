@@ -1,7 +1,7 @@
 import React from "react";
 import SectionTitle from "../components/sectionTitle/SectionTitle";
 
-function Home() {
+function PageHome() {
   return (
     <div className="center">
       <SectionTitle
@@ -19,4 +19,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default PageHome;

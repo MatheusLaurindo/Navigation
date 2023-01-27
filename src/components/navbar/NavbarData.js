@@ -13,4 +13,10 @@ export const NavbarData = [
     icons: <AiIcons.AiFillIdcard />,
     cName: "nav-text",
   },
+  {
+    title: "Input",
+    path: "/input",
+    icons: <AiIcons.AiFillAlipaySquare />,
+    cName: "nav-text",
+  },
 ];

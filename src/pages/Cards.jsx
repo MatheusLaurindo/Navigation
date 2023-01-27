@@ -3,12 +3,12 @@ import "../components/card/Card.css";
 import SectionTitle from "../components/sectionTitle/SectionTitle";
 import Card from "../components/card/Card";
 
-function Cards() {
+function PageCards() {
   return (
     <div className="center">
       <SectionTitle
         title="Card Component"
-        subtitle="Here you que see my card component page."
+        subtitle="Here you can see my card component page."
       />
       <div className="card-area">
         <Card
@@ -34,4 +34,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default PageCards;
